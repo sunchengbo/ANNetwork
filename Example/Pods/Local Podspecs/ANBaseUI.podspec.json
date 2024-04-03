@@ -1,6 +1,6 @@
 {
   "name": "ANBaseUI",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "summary": "A short description of ANBaseUI.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/sunchengbo/ANBaseUI",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/sunchengbo/ANBaseUI.git",
-    "tag": "0.0.2"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "10.0"

@@ -1,6 +1,6 @@
 {
   "name": "ANNetwork",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "summary": "A short description of ANNetwork.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/sunchengbo/ANNetwork",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/sunchengbo/ANNetwork.git",
-    "tag": "0.0.3"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "10.0"
@@ -28,7 +28,7 @@
 
     ],
     "ANBaseUI/UserDefaultExtension": [
-      "~> 0.0.2"
+
     ]
   },
   "swift_version": "5.0"
