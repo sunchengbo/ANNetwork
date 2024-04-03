@@ -1,8 +1,8 @@
 PODS:
   - Alamofire (5.9.1)
   - ANBaseUI/UserDefaultExtension (0.0.2)
-  - ANNetwork (0.0.2):
-    - ANBaseUI/UserDefaultExtension
+  - ANNetwork (0.0.3):
+    - ANBaseUI/UserDefaultExtension (~> 0.0.2)
     - HandyJSON
     - Moya/RxSwift
   - HandyJSON (5.0.2)
@@ -33,11 +33,11 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
   ANBaseUI: 49c402da236cadadb599d92e912d3f077a62b926
-  ANNetwork: c597250c4fba1e372697c7c9055385b3413eb380
+  ANNetwork: 8698a934fbf348269f7b3ca9a171b55d5347e2e2
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
 
-PODFILE CHECKSUM: 6346768dda3260d5ad92d7030237e22fd12c08ff
+PODFILE CHECKSUM: f0ad08cebd4e21375354ea0a35354f010c25eeef
 
 COCOAPODS: 1.15.2

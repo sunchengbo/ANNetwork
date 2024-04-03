@@ -3,11 +3,13 @@ use_frameworks!
 platform :ios, '10.0'
 
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/sunchengbo/ANBaseUI.git'
 source 'https://github.com/sunchengbo/ANNetwork.git'
 
 target 'ANNetwork_Example' do
   pod 'ANNetwork', :path => '../'
   pod 'ANBaseUI/UserDefaultExtension', :path => '../../ANBaseUI'
+  
 
   target 'ANNetwork_Tests' do
     inherit! :search_paths
