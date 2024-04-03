@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ANNetwork'
-  s.version          = '0.0.5'
+  s.version          = '1.0.5'
   s.summary          = 'A short description of ANNetwork.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sunchengbo' => '594744124@qq.com' }
-  s.source           = { :git => 'https://github.com/sunchengbo/ANNetwork.git', :tag => '0.0.5' }
+  s.source           = { :git => 'https://github.com/sunchengbo/ANNetwork.git', :tag => '1.0.5' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
