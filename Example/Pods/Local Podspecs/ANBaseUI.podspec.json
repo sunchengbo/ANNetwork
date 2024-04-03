@@ -1,0 +1,62 @@
+{
+  "name": "ANBaseUI",
+  "version": "0.0.2",
+  "summary": "A short description of ANBaseUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sunchengbo/ANBaseUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sunchengbo": "594744124@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/sunchengbo/ANBaseUI.git",
+    "tag": "0.0.2"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ANBaseUI/Classes/**/*",
+  "swift_versions": "5.0",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "ANBaseUI/Classes/Core/**/*",
+      "resource_bundles": {
+        "ANBaseUI": [
+          "ANBaseUI/Assets/Core/*.png"
+        ]
+      },
+      "dependencies": {
+        "SnapKit": [
+
+        ],
+        "Kingfisher": [
+
+        ],
+        "PKHUD": [
+
+        ],
+        "Toast-Swift": [
+
+        ],
+        "RxSwift": [
+
+        ],
+        "RxCocoa": [
+
+        ],
+        "MJRefresh": [
+
+        ]
+      }
+    },
+    {
+      "name": "UserDefaultExtension",
+      "source_files": "ANBaseUI/Classes/UserDefaultExtension/**/*"
+    }
+  ],
+  "swift_version": "5.0"
+}

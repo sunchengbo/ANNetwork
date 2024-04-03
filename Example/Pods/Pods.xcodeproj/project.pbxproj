@@ -50,13 +50,13 @@
 		0B3163621003149D1EC953C124D0130B /* Pods-ANNetwork_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANNetwork_Tests-Info.plist"; sourceTree = "<group>"; };
 		18AE1805745F5C78FFF9847E583C8DE1 /* Pods-ANNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2EBF1AED9BA5D64BEDC4D97899133106 /* Pods-ANNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		384D468B6A9AB76DC88747CC129380CC /* Pods-ANNetwork_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ANNetwork_Tests"; path = Pods_ANNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384D468B6A9AB76DC88747CC129380CC /* Pods_ANNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BACD0C0543BE865AE15B54083BAE926 /* ANNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ANNetwork.debug.xcconfig; sourceTree = "<group>"; };
 		40A2722E68727C360DDA2E48E54AFDE2 /* Pods-ANNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
 		429CB13632EB1A046D7542EC0E8E4EC3 /* ANNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ANNetwork-Info.plist"; sourceTree = "<group>"; };
 		4EFB1FFEA8725C49CD25D4E927A90699 /* ANUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANUtil.swift; sourceTree = "<group>"; };
 		5CB4914D2CDA54B74864D22CAE9BF980 /* ANError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANError.swift; sourceTree = "<group>"; };
-		5CC6120074CF67BF453C8B5EC1AC6F98 /* Pods-ANNetwork_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ANNetwork_Example"; path = Pods_ANNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC6120074CF67BF453C8B5EC1AC6F98 /* Pods_ANNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB617099A249740BC810B7ACF706106 /* ANNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ANNetwork-dummy.m"; sourceTree = "<group>"; };
 		5EA04F8B55ABAE70DB78A7EE4DB1DE39 /* UrlStrEncodeExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UrlStrEncodeExt.swift; sourceTree = "<group>"; };
 		6DCA37D91DF12ACF54B65EB628516064 /* Pods-ANNetwork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ANNetwork_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		9CF42F96071875CCC1AE1D3B317D8D07 /* Pods-ANNetwork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANNetwork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A39502941DD78845AC058FDBC005B1B4 /* Single+HandyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Single+HandyJSON.swift"; sourceTree = "<group>"; };
-		A8FDC3D3C8799E8EAC5E25353807E0CF /* ANNetwork */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ANNetwork; path = ANNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FDC3D3C8799E8EAC5E25353807E0CF /* ANNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ANNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA46C82DEBC3CA195FFB98D118D061B3 /* ANNetworkTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANNetworkTypes.swift; sourceTree = "<group>"; };
 		ACA379036F52C67D30BB8F27A11D57C5 /* ANNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANNetwork-umbrella.h"; sourceTree = "<group>"; };
 		B1E9CC630B39986599D74823D18234D5 /* Pods-ANNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,9 +136,9 @@
 		7C06F608471FDA24E31DA7CF42DCA0A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8FDC3D3C8799E8EAC5E25353807E0CF /* ANNetwork */,
-				5CC6120074CF67BF453C8B5EC1AC6F98 /* Pods-ANNetwork_Example */,
-				384D468B6A9AB76DC88747CC129380CC /* Pods-ANNetwork_Tests */,
+				A8FDC3D3C8799E8EAC5E25353807E0CF /* ANNetwork.framework */,
+				5CC6120074CF67BF453C8B5EC1AC6F98 /* Pods_ANNetwork_Example.framework */,
+				384D468B6A9AB76DC88747CC129380CC /* Pods_ANNetwork_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,7 +320,7 @@
 			);
 			name = "Pods-ANNetwork_Tests";
 			productName = Pods_ANNetwork_Tests;
-			productReference = 384D468B6A9AB76DC88747CC129380CC /* Pods-ANNetwork_Tests */;
+			productReference = 384D468B6A9AB76DC88747CC129380CC /* Pods_ANNetwork_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8391475D31A322D21D617277503677AB /* Pods-ANNetwork_Example */ = {
@@ -339,7 +339,7 @@
 			);
 			name = "Pods-ANNetwork_Example";
 			productName = Pods_ANNetwork_Example;
-			productReference = 5CC6120074CF67BF453C8B5EC1AC6F98 /* Pods-ANNetwork_Example */;
+			productReference = 5CC6120074CF67BF453C8B5EC1AC6F98 /* Pods_ANNetwork_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8440648048C17F6B1201BDB43DA9E085 /* ANNetwork */ = {
@@ -357,7 +357,7 @@
 			);
 			name = ANNetwork;
 			productName = ANNetwork;
-			productReference = A8FDC3D3C8799E8EAC5E25353807E0CF /* ANNetwork */;
+			productReference = A8FDC3D3C8799E8EAC5E25353807E0CF /* ANNetwork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */

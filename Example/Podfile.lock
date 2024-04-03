@@ -1,16 +1,43 @@
 PODS:
-  - ANNetwork (0.0.1)
+  - Alamofire (5.9.1)
+  - ANBaseUI/UserDefaultExtension (0.0.2)
+  - ANNetwork (0.0.1):
+    - ANBaseUI/UserDefaultExtension
+    - HandyJSON
+    - Moya/RxSwift
+  - HandyJSON (5.0.2)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - RxSwift (6.6.0)
 
 DEPENDENCIES:
+  - ANBaseUI/UserDefaultExtension (from `../../ANBaseUI`)
   - ANNetwork (from `../`)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - HandyJSON
+    - Moya
+    - RxSwift
+
 EXTERNAL SOURCES:
+  ANBaseUI:
+    :path: "../../ANBaseUI"
   ANNetwork:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ANNetwork: 8e2f8634caa9d3f2d56357793cf1f0be3cfd0c8d
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  ANBaseUI: 49c402da236cadadb599d92e912d3f077a62b926
+  ANNetwork: 38254a46c91a74804787ce0bf982ec815d601a4c
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
 
-PODFILE CHECKSUM: 7de9d4f22ce36809fd2114874788cb00d0c8aa62
+PODFILE CHECKSUM: 6346768dda3260d5ad92d7030237e22fd12c08ff
 
 COCOAPODS: 1.15.2

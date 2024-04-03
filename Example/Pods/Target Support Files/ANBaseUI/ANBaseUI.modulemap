@@ -1,0 +1,6 @@
+framework module ANBaseUI {
+  umbrella header "ANBaseUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
