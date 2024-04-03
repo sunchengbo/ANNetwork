@@ -73,18 +73,18 @@
 		99998A4B746B951C6F8C63A696BBF1EE /* Pods-ANNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANNetwork_Example-dummy.m"; sourceTree = "<group>"; };
 		9B34F83B329B767FEEC904665C6FAEEB /* NetworkConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
 		9CF42F96071875CCC1AE1D3B317D8D07 /* Pods-ANNetwork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANNetwork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A39502941DD78845AC058FDBC005B1B4 /* Single+HandyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Single+HandyJSON.swift"; sourceTree = "<group>"; };
 		A8FDC3D3C8799E8EAC5E25353807E0CF /* ANNetwork */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ANNetwork; path = ANNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA46C82DEBC3CA195FFB98D118D061B3 /* ANNetworkTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANNetworkTypes.swift; sourceTree = "<group>"; };
 		ACA379036F52C67D30BB8F27A11D57C5 /* ANNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANNetwork-umbrella.h"; sourceTree = "<group>"; };
 		B1E9CC630B39986599D74823D18234D5 /* Pods-ANNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CECA3EC32690775161005894E748A625 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D679B587E04F18586B8E5E00DBDB2B0E /* ANNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ANNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CECA3EC32690775161005894E748A625 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D679B587E04F18586B8E5E00DBDB2B0E /* ANNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ANNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		DA86BD9F22DA042A3228B6758382292F /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
 		EBBFD657D8597F7939BE35B70B1A0239 /* Pods-ANNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		ED4BC48AFA21AE92E6061066DDA09680 /* Pods-ANNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F8B1053587F9F63458963B243D57602D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F8B1053587F9F63458963B243D57602D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FE58C4B0F56384E6E8CEFA3BA60ADDA5 /* Pods-ANNetwork_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANNetwork_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -584,8 +584,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
