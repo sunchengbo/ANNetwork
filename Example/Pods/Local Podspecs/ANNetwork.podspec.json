@@ -1,0 +1,24 @@
+{
+  "name": "ANNetwork",
+  "version": "0.0.1",
+  "summary": "A short description of ANNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sunchengbo/ANNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sunchengbo": "594744124@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/sunchengbo/ANNetwork.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ANNetwork/Classes/**/*",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

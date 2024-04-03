@@ -1,0 +1,6 @@
+framework module ANNetwork {
+  umbrella header "ANNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}
