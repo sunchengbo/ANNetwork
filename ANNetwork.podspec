@@ -44,6 +44,6 @@ TODO: Add long description of the pod here.
 
   s.dependency 'Moya/RxSwift'
   s.dependency 'HandyJSON'
-  s.dependency 'ANBaseUI/UserDefaultExtension'
+  s.dependency 'ANBaseUI/UserDefaultExtension' , '~> 0.0.2'
   
 end
